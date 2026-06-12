@@ -1,1 +1,1 @@
-# AGRINHO-2O26
+Esse site funciona como uma plataforma de apresentação tecnológica e interativa (conhecida como Landing Page).O site foi estruturado como uma Landing Page (página de conversão e apresentação). O objetivo principal é educar o público e os produtores sobre as práticas do agro sustentável, conectando a eficiência do campo com a responsabilidade ecológica.# AGRINHO-2O26
