@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header-agro">
+        <nav class="nav-container">
+            <div class="logo-agro">Agro<span>Forte</span></div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link active">Início</a></li>
+                <li><a href="#pilares" class="nav-link">Pilares</a></li>
+                <li><a href="#impacto" class="nav-link">Impacto</a></li>
+                <li><a href="#contato" class="nav-link">Engaje-se</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero-section">
+            <div class="hero-content">
+                <h1>Agro Forte, Futuro Sustentável, Equilibrio entre o Agro e meio ambiente</h1>
+                <p>A união entre a força do campo, a tecnologia de ponta e o respeito ao meio ambiente para alimentar o amanhã.</p>
+                <a href="#pilares" class="btn-sustentavel">Conheça as Inovações</a>
+            </div>
+        </section>
+
+        <section id="pilares" class="pilares-section">
+            <h2 class="titulo-secao">Nossos Pilares</h2>
+            
+            <div class="container-filtros">
+                <button class="btn-filtro ativo" data-categoria="todos">Todos</button>
+                <button class="btn-filtro" data-categoria="tecnologia">Tecnologia</button>
+                <button class="btn-filtro" data-categoria="sustentabilidade">Sustentabilidade</button>
+            </div>
+
+            <div class="grid-pilares">
+                <div class="card-pilar" data-categoria="tecnologia">
+                    <h3>Drones & IA</h3>
+                    <p>Mapeamento térmico e aplicação milimétrica de recursos, eliminando desperdícios no solo.</p>
+                </div>
+                <div class="card-pilar" data-categoria="sustentabilidade">
+                    <h3>Energia Limpa</h3>
+                    <p>Fazendas autossuficientes movidas a energia solar e biomassa, reduzindo a pegada de carbono.</p>
+                </div>
+                <div class="card-pilar" data-categoria="tecnologia">
+                    <h3>Sensores IoT</h3>
+                    <p>Monitoramento em tempo real da umidade da terra, otimizando o uso da água gota a gota.</p>
+                </div>
+                <div class="card-pilar" data-categoria="sustentabilidade">
+                    <h3>Reflorestamento</h3>
+                    <p>Integração Lavoura-Pecuária-Floresta (ILPF) que recupera o solo e protege a biodiversidade.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="impacto" class="impacto-section">
+            <h2 class="titulo-secao">Metas de Impacto</h2>
+            <div class="grid-impacto">
+                <div class="card-impacto">
+                    <h2 class="numero-impacto" data-target="40">0</h2>
+                    <p>% de Economia de Água</p>
+                </div>
+                <div class="card-impacto">
+                    <h2 class="numero-impacto" data-target="150">0</h2>
+                    <p>Mil Hectares Reflorestados</p>
+                </div>
+                <div class="card-impacto">
+                    <h2 class="numero-impacto" data-target="0">0</h2>
+                    <p>Desperdício de Alimentos</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato-section">
+            <h2 class="titulo-secao">Semie sua Ideia</h2>
+            <form id="form-agro" class="form-agro">
+                <input type="text" id="nome" placeholder="Seu Nome" required>
+                <input type="email" id="email" placeholder="Seu E-mail" required>
+                <textarea id="mensagem" placeholder="Compartilhe uma ideia sustentável para o campo..." rows="5" required></textarea>
+                <button type="submit" class="btn-sustentavel">Enviar Proposta</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer-agro">
+        <p>&copy; 2026 Concurso Agro Forte, Futuro Sustentável. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
